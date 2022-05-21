@@ -1,1 +1,2 @@
 # GreenToRedLightbulbTimerApp
+Connects to a Yeelight lightbulb (IP address entered manually) and takes user input as time in minutes to create a light-based timer that gradually transitions from green to red. The time can be entered via command line as a parameter or by user input. Here is an example CLI call that runs the program for 5 minutes, piping the output to a log file and running the program in the background: 'python timer.py 30 > timerlog.txt &'
